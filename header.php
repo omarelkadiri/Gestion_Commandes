@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="en" class="h-100" data-bs-theme="auto">
-  <head><script src="https://getbootstrap.com/docs/5.3/assets/js/color-modes.js"></script>
+  <head>
+
+  <!-- CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.0/css/dataTables.dataTables.css" />
+    <script src="https://getbootstrap.com/docs/5.3/assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,8 +16,6 @@
     <title>Sticky Footer Navbar Template · Bootstrap v5.3</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/">
-
-    
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
@@ -27,7 +31,6 @@
 <meta name="theme-color" content="#712cf9">
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
 <script src="js/jquery-3.7.1.js" > </script>
-<link rel="stylesheet" href="https://cdn.datatables.net/2.1.0/css/dataTables.dataTables.css" />
 
     <style>
       .bd-placeholder-img {
@@ -179,7 +182,7 @@
             <a class="nav-link <?php echo !empty($index)?"active":"" ?>"  href="index.php">Aceuil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php echo !empty($articles)?"active":"" ?>" href="articales.php">Articales</a>
+            <a class="nav-link <?php echo !empty($articales)?"active":"" ?>" href="articles.php">Articles</a>
           </li>
           <li class="nav-item">
             <a class="nav-link <?php echo !empty($clients)?"active":"" ?>" href="clients.php">Clients</a>
@@ -205,3 +208,7 @@
   } );
 
 </script>
+
+<!-- JavaScript de Bootstrap et dépendances -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
